@@ -1,47 +1,100 @@
 #index-bk {
-  background: url(../images/body.jpg);
+  background: url(../images/body.jpg) no-repeat;
+  background-position: top;
 }
 
-.gap {
-  margin-top: 400px;
+#about-bk {
+  background: url(../images/about-img.jpg) no-repeat;
+  background-position: top-left;
 }
 
-header {
-  height: 300px;
-  background-color: rgba(175, 111, 92, 0.2);
-}
-
-header ul {
-  text-align: center;
-  list-style-type: none;
-  font-family: 'Pacifico', cursive ;
-  font-size: 30px;
-  padding-top: 50px;
-}
-
-header ul a {
-  color: white;
-}
-
-footer {
-  height: 300px;
+#color1 {
   background-color: rgb(11, 17, 36);
+  height: 400px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 18px;
-  margin-bottom: 50px;
+  padding-top: 30px;
+}
+
+#color2 {
+  background-color: rgb(11, 17, 36);
+  margin-top: 450px;
+  height: 400px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+#footerh1, #footerh2 {
+  padding-top: 60px;
+}
+
+header ul {
+  text-align: right;
+  list-style-type: none;
+  font-family: 'Pacifico', cursive ;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 2px;
+}
+
+header ul a {
+  color: #81C2B8;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 16px;
 }
 
 footer h1 {
-  padding-top: 60px;
-  padding-bottom: 10px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  padding-top: 350px;
+  font-size: 28px;
+}
+
+#comeback {
   font-family: 'Pacifico', cursive;
   color: white;
 }
 
+#copyright {
+  font-size: 10px;
+  padding-top: 20px;
+}
+
+#bottom-img {
+  background: url(../images/brain-img.jpg);
+  height: 300px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding-top: 250px;
+}
+
+
+#time {
+  text-align: center;
+  padding-top: 80px;
+  padding-right: 5px;
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 18px;
+}
+
 #icon {
   padding-top: 30px;
+}
+
+#icon1 {
+  padding-top: 10px;
 }
 
 #pinterest {
@@ -52,52 +105,45 @@ footer h1 {
   padding-left: 5px;
 }
 
-#icon p {
-  padding-top: 80px;
+#instagram {
+  padding-left: 6px;
 }
 
 #logo {
-  padding-top: 40px;
-  padding-left: 20px;
+  padding-top: 15px;
 }
 
-#glyphicon1 {
-  color: rgb(100,138,209)
+#logo-about {
+  padding-top: 12px;
 }
 
-#glyphicon2 {
-  color: rgb(192, 3, 25);
+#fancyClock {
+  position: absolute;
+  left: 564px;
+  top: 385px;
 }
 
-#projects-bk {
-  background: url(../images/projects-bk.jpg);
+#frame {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  padding-left: 10px;
 }
 
-#falko-hover, #liftr-hover {
-  visibility: hidden;
-  text-align: center;
-  font-family: 'Pacifico', cursive;
-  font-size: 20px;
-  color: #fff;
+.assfat {
+  padding-top: 200px;
+  padding-right: 380px;
+  padding-bottom: 250px;
+  color: #585858;
+  z-index: 2;
+  position: relative;
+  font-family: 'Lobster', cursive;
 }
 
-.hover-pic {
-  height: 400px;
+.menu {
+  z-index: 3;
 }
-
-.hover-pic img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hover-pic:hover #falko-hover,
-.hover-pic:hover #liftr-hover {
-  visibility: visible;
-}
-
-.hover-pic:hover {
-  background: rgba(42, 44, 43, 0.3);
-}
-
 
