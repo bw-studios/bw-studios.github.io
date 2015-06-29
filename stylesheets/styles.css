@@ -6,6 +6,7 @@
 #about-bk {
   background: url(../images/about-img.jpg) no-repeat;
   background-position: top-left;
+  background-color: rgb(237, 237, 237)
 }
 
 #color1 {
@@ -15,7 +16,7 @@
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 18px;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 #color2 {
@@ -118,9 +119,12 @@ footer h1 {
 }
 
 #fancyClock {
+  margin: 0;
   position: absolute;
-  left: 564px;
   top: 385px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%)
 }
 
 #frame {
@@ -128,14 +132,13 @@ footer h1 {
   left: 0px;
   top: 0px;
   z-index: 1;
-  padding-top: 200px;
-  padding-bottom: 150px;
-  padding-left: 10px;
+  padding-top: 500px;
+  padding-left: 40px;
 }
 
-.assfat {
-  padding-top: 200px;
-  padding-right: 380px;
+.about {
+  padding-top: 250px;
+  padding-right: 250px;
   padding-bottom: 250px;
   color: #585858;
   z-index: 2;
@@ -147,3 +150,11 @@ footer h1 {
   z-index: 3;
 }
 
+#title-about {
+  color: #FE642E;
+  padding-bottom: 20px;
+}
+
+#header-pic {
+  padding-bottom: 300px;
+}
